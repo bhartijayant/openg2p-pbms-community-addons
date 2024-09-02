@@ -7,6 +7,5 @@ This repository contains code copied from below repositories
     - https://github.com/OCA/queue
     - https://github.com/OCA/server-env
     - https://github.com/Smile-SA/odoo_addons
-
-    These programs are free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, version [3] of the License, or (at your option) any later version. 
+These programs are free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, version [3] of the License, or (at your option) any later version. 
 For full licensing terms, see the LICENSE file in the root directory of this project. 
