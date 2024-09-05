@@ -1,0 +1,16 @@
+# generated from manifests external_dependencies
+a2wsgi
+boto3<=1.15.18
+cachetools
+extendable-pydantic>=1.2.0
+extendable>=0.0.4
+fastapi
+formio-data
+graphene
+graphql_server
+parse-accept-language
+pydantic>=2.0.0
+python-multipart
+python_slugify
+requests
+ujson
