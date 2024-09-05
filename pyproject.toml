@@ -1,0 +1,31 @@
+[project]
+name = "odoo-addons-openg2p-pbms-community-addons"
+version = "0.0.0"
+dependencies = [
+    "odoo-addon-component @ {root:uri}/component",
+    "odoo-addon-endpoint_route_handler @ {root:uri}/endpoint_route_handler",
+    "odoo-addon-extendable @ {root:uri}/extendable",
+    "odoo-addon-extendable_fastapi @ {root:uri}/extendable_fastapi",
+    "odoo-addon-fastapi @ {root:uri}/fastapi",
+    "odoo-addon-formio @ {root:uri}/formio",
+    "odoo-addon-formio-data-api @ {root:uri}/formio_data_api",
+    "odoo-addon-formio-storage-filestore @ {root:uri}/formio_storage_filestore",
+    "odoo-addon-graphql_base @ {root:uri}/graphql_base",
+    "odoo-addon-graphql_demo @ {root:uri}/graphql_demo",
+    "odoo-addon-queue_job @ {root:uri}/queue_job",
+    "odoo-addon-server_environment @ {root:uri}/server_environment",
+    "odoo-addon-smile_audit @ {root:uri}/smile_audit",
+    "odoo-addon-storage_backend @ {root:uri}/storage_backend",
+    "odoo-addon-storage_backend_s3 @ {root:uri}/storage_backend_s3",
+    "odoo-addon-storage_file @ {root:uri}/storage_file",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+bypass-selection = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
