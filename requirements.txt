@@ -14,3 +14,4 @@ python-multipart
 python_slugify
 requests
 ujson
+xlrd
