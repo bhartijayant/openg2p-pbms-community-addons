@@ -16,7 +16,7 @@
     "external_dependencies": {
         "python": [
             "pydantic>=2.0.0",
-            "extendable-pydantic>=1.2.0",
+            "extendable-pydantic>=1.3.1",
         ],
     },
     # "installable": False,
