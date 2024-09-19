@@ -22,7 +22,8 @@
     "demo": ["demo/fastapi_endpoint_demo.xml"],
     "external_dependencies": {
         "python": [
-            "fastapi>=0.112.3",
+            # fastapi version reset because of issues with extendable_pydantic
+            "fastapi<=0.112.2",
             "python-multipart",
             "ujson",
             "a2wsgi",
