@@ -1,5 +1,37 @@
 # Changelog
 
+## 17.0.6.0.8
+
+Form Builder improvements:
+- Field active
+- Add search filter: Archived
+- Remove search filters: Not Portal, Not Public
+
+## 17.0.6.0.7
+
+Fix `formio.form` method `_process_api_components` with `res.partner` creation.\
+Add DEPRECATION warning: `_process_api_components: partner creation will be removed from Odoo 18`
+
+## 17.0.6.0.6
+
+Add Form Builder (server) action: Reset formio.js version to Dummy
+
+## 17.0.6.0.5
+
+Improve the installation (`post_init_hook`) to auto install the latest stable formio.js (library) version from the GitHub tags API.
+Instead of relying (using) the system parameter (`ir.config_parameter`) `formio.default_version`, which isn't reliable due to the GitHub tags API (30 limit) results and leaves no installed formio.js (library) version.
+
+## 17.0.6.0.4
+
+Fix for error in a public wizard form:\
+`TypeError: document.querySelector(...) is null`
+
+PR: https://github.com/novacode-nl/odoo-formio/pull/286
+
+## 17.0.6.0.3
+
+Fixes for public form (formio.form record) rendering.
+
 ## 17.0.6.0.2
 
 This fixes some issues introduced by version 17.0.6.0.0
