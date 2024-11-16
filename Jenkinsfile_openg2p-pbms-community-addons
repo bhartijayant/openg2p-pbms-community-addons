@@ -9,6 +9,13 @@ pipeline {
     }
 
     stages {
+	stage('Syncing the files') {
+	   steps {
+		sh """
+                bash -c "rsync -av --exclude='.git' /opt/odoo17/odoo17/jenkins-agent/workspace/openg2p-pbms-community-addons /opt/odoo17/odoo17/custom-addons/openg2p-pbms-community-addons"
+                """
+	   }
+	}
         stage('Activate Virtual Environment') {
            steps {
                 sh """
